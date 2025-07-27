@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com?plugins=aspect-ratio"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-white">
@@ -46,10 +47,10 @@
         </div>
     </header>
 
-    <section id="beranda" class="py-20 hero-pattern">
+    <section id="beranda" class="py-20 hero-pattern"><!-- AOS applied -->
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
                     <h1 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">Pena-Ku</h1>
                     <h1 class="text-2xl md:text-3xl font-bold mb-6 gradient-text">Perempuan Naik Kelas Desa Klepu</h1>
                     <p class="text-gray-700 text-lg mb-8">Memberdayakan perempuan melalui pendidikan dan keterampilan di Desa Klepu, Kecamatan Pringapus, Kabupaten Semarang, Jawa Tengah.</p>
@@ -58,7 +59,7 @@
                         <a href="#profil-desa" class="px-6 py-3 border-2 border-purple-600 text-purple-600 font-medium rounded-lg hover:bg-purple-50 transition">Profil Desa</a>
                     </div>
                 </div>
-                <div class="md:w-1/2 flex justify-center">
+                <div class="md:w-1/2 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
                     <img src="img\permata.png" alt="Sekolah Permata">
                 </div>
             </div>
@@ -69,7 +70,7 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold mb-12 text-center gradient-text">Profil Desa</h2>
             <div class="flex flex-col md:flex-row gap-10">
-                <div class="md:w-1/2">
+                <div class="md:w-1/2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="bg-white p-8 rounded-xl shadow-lg">
                         <h3 class="text-2xl font-semibold mb-4 text-purple-800">Desa Klepu</h3>
                         <p class="text-gray-700 mb-4">Desa Klepu merupakan sebuah desa di Kecamatan Pringapus, Kabupaten Semarang, Jawa Tengah. Profil Desa Klepu memiliki masing-masing 1 RW dalam enam dusun, yaitu Dusun Krajan, Dusun Macanmati, Dusun Bodean, Dusun Duwet, Dusun Kemasan, dan Dusun Kaliulo.</p>
@@ -95,7 +96,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="md:w-1/2">
+                <div class="md:w-1/2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="bg-white p-8 rounded-xl shadow-lg">
                         <h3 class="text-2xl font-semibold mb-4 text-purple-800">Potensi Desa</h3>
                         <div class="space-y-4">
@@ -249,22 +250,22 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold mb-12 text-center gradient-text">Galeri Kegiatan</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/aula1.JPG" alt="Foto Kegiatan 1" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/aula2.JPG" alt="Foto Kegiatan 2" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/pendopo.JPG" alt="Foto Kegiatan 3" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/sholawat.jpg" alt="Foto Kegiatan 4" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/sunrise.JPG" alt="Foto Kegiatan 5" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
-                <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md card-hover">
+                <div class="aspect-w-16 aspect-h-9" data-aos="zoom-in" data-aos-duration="800" rounded-lg overflow-hidden shadow-md card-hover">
                     <img src="img/greenhouse.jpg" alt="Foto Kegiatan 6" class="object-cover w-full h-full transition-transform duration-200 transform scale-100 hover:scale-105">
                 </div>
             </div>
@@ -418,6 +419,8 @@
     </footer>
 
     <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 
 </html>
